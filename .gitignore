@@ -1,0 +1,21 @@
+# Secrets — never commit
+.env
+.env.*
+
+# BTCV data (download separately; not redistributed)
+data/
+
+# Large result JSONs are hosted on Hugging Face (see README) — not tracked in git
+results/**/*.json
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Local model checkpoints
+models/
+
+# OS / editor
+.DS_Store
+.vscode/

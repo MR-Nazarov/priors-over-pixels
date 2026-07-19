@@ -1,0 +1,1176 @@
+sample_id,model,organ,raw_response,detector_flag,human_label
+img0035_z081_prior_consistent_stomach,medgemma27b,portal_splenic_vein,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. The liver, spleen, stomach, and parts of the pancreas are visible. The aorta and inferior vena cava are also present. The kidneys are not clearly visible in this slice."",
+  ""reasoning"": ""The stomach is visible as a gas-filled structure on the left side of the image. The spleen is visible on the left side, superior to the stomach. The portal splenic vein is visible as a vessel near the spleen and stomach. The pancreas is visible as a soft tissue structure posterior to the stomach."",
+  ""presence"": {
+    ""stomach"": ""present"",
+    ""spleen"": ""present"",
+    ""portal splenic vein"": ""present"",
+    ""pancreas"": ""present""
+  }
+}
+```",1,0
+img0038_z069_transition_spleen,medgemma27b,esophagus,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. The liver is large and occupies the upper right quadrant. The spleen is visible in the upper left quadrant. The stomach is seen as a gas-filled structure inferior to the left hemidiaphragm and medial to the spleen. The esophagus is not clearly visible in this slice, as it is typically located more posteriorly and superiorly."",
+  ""reasoning"": ""The stomach appears as a gas-filled structure in the upper abdomen, inferior to the left hemidiaphragm. The spleen is visible in the upper left quadrant. The esophagus is typically located posterior to the trachea and heart, and is usually not well visualized in a standard axial slice at this level, which primarily shows the stomach and spleen."",
+  ""presence"": {
+    ""stomach"": ""present"",
+    ""spleen"": ""present"",
+    ""esophagus"": ""absent""
+  }
+}
+```",1,1
+img0001_z146_out_of_range_far_liver,medgemma27b,liver,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. The liver, spleen, stomach, and parts of the kidneys are visible. The aorta and inferior vena cava are also present. The esophagus is located more superiorly and is not clearly visible in this slice."",
+  ""reasoning"": ""The liver is a large organ occupying the upper right quadrant and is clearly visible in this slice. The stomach is located in the upper left quadrant, partially visible. The esophagus is located posterior to the trachea and heart, superior to the stomach and liver, and is not visible in this particular axial slice."",
+  ""presence"": {
+    ""liver"": ""present"",
+    ""stomach"": ""present"",
+    ""esophagus"": ""absent""
+  }
+}
+```",1,0
+img0026_z082_transition_stomach,medgemma27b,portal_splenic_vein,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. The liver, spleen, right kidney, left kidney, stomach, and parts of the pancreas are visible. The aorta and inferior vena cava are also present. The esophagus is located more superiorly and is not clearly visible in this slice. The portal splenic vein is visible near the pancreas and spleen."",
+  ""reasoning"": ""The stomach is visible as a gas-filled structure on the left side of the image. The pancreas is visible as a soft tissue structure located between the stomach and the duodenum. The portal splenic vein is visible as a vessel near the superior border of the pancreas and the hilum of the spleen. The esophagus is located superior to this slice and is not visible."",
+  ""presence"": {
+    ""stomach"": ""present"",
+    ""pancreas"": ""present"",
+    ""portal splenic vein"": ""present"",
+    ""esophagus"": ""absent""
+  }
+}
+```",1,0
+img0026_z068_prior_consistent_liver,medgemma27b,esophagus,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. The liver is visible on the left side of the image, the spleen is visible on the right side. The stomach is seen superiorly, and the right kidney is visible inferiorly on the right. The aorta is seen centrally. The pancreas is located posterior to the stomach."",
+  ""reasoning"": ""The pancreas is located in the upper abdomen, posterior to the stomach and anterior to the aorta and vena cava. A portion of the pancreas is visible in this slice, situated between the stomach and the aorta/IVC. The esophagus is located posterior to the trachea and heart, typically more superior than this slice shows. While the upper part of the esophagus might be close, it is not clearly identifiable in this specific axial view. The liver is a large organ occupying the upper right quadrant of the abdomen. A significant portion of the liver is visible on the left side of this slice."",
+  ""presence"": {
+    ""pancreas"": ""present"",
+    ""esophagus"": ""absent"",
+    ""liver"": ""present""
+  }
+}
+```",1,0
+img0003_z137_out_of_range_near_gallbladder,medgemma27b,pancreas,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. The slice shows the liver, spleen, stomach, part of the pancreas, the aorta, the inferior vena cava, the left kidney, and the right adrenal gland. The esophagus is likely present but partially obscured. The gallbladder is visible."",
+  ""reasoning"": ""The esophagus is a tubular structure running posterior to the trachea and heart, typically seen in the midline or slightly to the left in axial views of the upper chest/abdomen. While not perfectly clear, a structure consistent with the esophagus is visible in the upper part of the image, posterior to the stomach. The liver is a large organ occupying the right upper quadrant and part of the left upper quadrant. A significant portion of the liver is clearly visible in this slice. The pancreas is located posterior to the stomach, and a portion of it is visible in the midline, just inferior to the stomach and superior to the aorta/IVC. The gallbladder is a small, pear-shaped organ typically located inferior to the liver, often nestled in a fossa. It is visible in the right upper quadrant, inferior to the liver."",
+  ""presence"": {
+    ""esophagus"": ""present"",
+    ""liver"": ""present"",
+    ""pancreas"": ""present"",
+    ""gallbladder"": ""present""
+  }
+}
+```",1,0
+img0001_z135_out_of_range_far_pancreas,medgemma27b,esophagus,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. The slice shows the liver, spleen, stomach, left kidney, aorta, inferior vena cava, and parts of the pancreas. The esophagus is likely superior to this slice. The portal splenic vein is visible."",
+  ""reasoning"": ""The pancreas is visible as a structure posterior to the stomach and anterior to the aorta/IVC. The esophagus is typically located more superiorly in the chest or upper mediastinum, and is not clearly visible in this slice which appears to be at the level of the pancreas/spleen. The liver is clearly visible on the right side of the image. The portal splenic vein is visible as a vessel near the portal vein and spleen."",
+  ""presence"": {
+    ""pancreas"": ""present"",
+    ""esophagus"": ""absent"",
+    ""liver"": ""present"",
+    ""portal splenic vein"": ""present""
+  }
+}
+```",1,1
+img0038_z084_transition_esophagus,medgemma27b,portal_splenic_vein,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. The liver, spleen, stomach, and parts of the kidneys are visible. The aorta and inferior vena cava are also present. The pancreas is located posterior to the stomach."",
+  ""reasoning"": ""The esophagus is typically located more superiorly and posteriorly in the chest/upper abdomen, and is not clearly visible in this slice. The pancreas is located posterior to the stomach and is visible in this slice. The portal splenic vein is located near the portal vein and splenic vein, superior to the pancreas and posterior to the stomach, and is visible in this slice. The stomach is a large, air-filled structure visible in the upper left quadrant of the abdomen in this slice."",
+  ""presence"": {
+    ""esophagus"": ""absent"",
+    ""pancreas"": ""present"",
+    ""portal splenic vein"": ""present"",
+    ""stomach"": ""present""
+  }
+}
+```",1,0
+img0009_z046_out_of_range_far_stomach,medgemma27b,right_kidney,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. The liver is visible on the left side of the image. The stomach is seen as a gas-filled structure superior to the liver. The spleen is visible superiorly and to the left. The right kidney is visible on the right side of the image. The left kidney is visible on the left side of the image, medial to the spleen. The aorta is seen centrally. The inferior vena cava is seen to the right of the aorta. The pancreas is located posterior to the stomach. The adrenal glands are located superior to the kidneys."",
+  ""reasoning"": ""The stomach appears as a gas-filled structure superior to the liver in this slice. The left kidney is visible on the left side of the image, medial to the spleen. The right kidney is visible on the right side of the image. The liver occupies a significant portion of the upper abdomen on the left side of the image."",
+  ""presence"": {
+    ""stomach"": ""present"",
+    ""left kidney"": ""present"",
+    ""right kidney"": ""present"",
+    ""liver"": ""present""
+  }
+}
+```",1,0
+img0030_z103_prior_consistent_pancreas,medgemma27b,right_kidney,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. The liver, spleen, stomach, and parts of the kidneys are visible. The aorta and inferior vena cava are also present. The pancreas is partially visible."",
+  ""reasoning"": ""The portal splenic vein is a major vein formed by the confluence of the splenic vein and the superior mesenteric vein, typically located posterior to the neck of the pancreas. In this slice, the splenic vein is visible, but the superior mesenteric vein is not clearly seen joining it in this specific axial plane. However, the splenic vein itself is present. The right kidney is visible on the right side of the image. The stomach is visible as a gas-filled structure on the left side. The pancreas is visible as a soft tissue structure located between the stomach and the duodenum, posterior to the stomach."",
+  ""presence"": {
+    ""portal splenic vein"": ""present"",
+    ""right kidney"": ""present"",
+    ""stomach"": ""present"",
+    ""pancreas"": ""present""
+  }
+}
+```",1,0
+img0009_z072_out_of_range_far_esophagus,medgemma27b,spleen,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. The liver, spleen, stomach, and parts of the kidneys are visible. The aorta and inferior vena cava are also present. The pancreas is partially visible."",
+  ""reasoning"": ""The left kidney is clearly visible on the left side of the image. The spleen is visible on the upper left side of the image. The right adrenal gland sits atop the right kidney, which is not fully visible in this slice, but the gland itself is not clearly identifiable in this specific axial cut. The stomach is visible as a gas-filled structure on the left side of the image, superior to the spleen."",
+  ""presence"": {
+    ""left kidney"": ""present"",
+    ""spleen"": ""present"",
+    ""right adrenal gland"": ""absent"",
+    ""stomach"": ""present""
+  }
+}
+```",1,0
+img0002_z085_out_of_range_near_stomach,medgemma27b,right_kidney,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. The slice shows the liver, spleen, stomach, pancreas, aorta, inferior vena cava, and parts of the kidneys and adrenal glands. The spine is visible in the center."",
+  ""reasoning"": ""The right kidney is visible on the right side of the image, appearing as a bean-shaped structure. The left kidney is visible on the left side of the image, also appearing as a bean-shaped structure. The pancreas is located centrally, posterior to the stomach, and appears as a relatively dense structure. The stomach is visible superiorly, containing some air and contrast, located to the left of the liver and anterior to the pancreas."",
+  ""presence"": {
+    ""right kidney"": ""present"",
+    ""left kidney"": ""present"",
+    ""pancreas"": ""present"",
+    ""stomach"": ""present""
+  }
+}
+```",1,0
+img0027_z074_transition_esophagus,medgemma27b,esophagus,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. The liver is visible on the left side of the image, the spleen is visible on the right side, the stomach is in the upper left quadrant, and the pancreas is located centrally, posterior to the stomach. The esophagus is not clearly visible in this slice."",
+  ""reasoning"": ""The pancreas appears as a relatively dense structure located centrally, posterior to the stomach. The esophagus is a tubular structure that runs posterior to the trachea and heart; it is not clearly identifiable in this axial slice, which is likely at the level of the stomach or slightly below. The spleen is visible on the upper right side of the image, appearing as a relatively homogeneous, slightly denser structure compared to the liver. The liver is visible on the upper left side of the image, appearing as a large, relatively homogeneous organ."",
+  ""presence"": {
+    ""pancreas"": ""present"",
+    ""esophagus"": ""absent"",
+    ""spleen"": ""present"",
+    ""liver"": ""present""
+  }
+}
+```",1,1
+img0027_z062_prior_consistent_pancreas,medgemma27b,right_adrenal_gland,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. The liver, stomach, spleen, left kidney, and part of the right kidney are visible. The aorta and inferior vena cava are also present. The pancreas is located centrally, posterior to the stomach."",
+  ""reasoning"": ""The esophagus is typically located more superiorly and posteriorly, often not well visualized in this specific axial level. The pancreas is clearly visible in the central abdomen, posterior to the stomach. The spleen is visible on the left side of the abdomen. The right adrenal gland sits superior to the right kidney, which is partially visible in this slice."",
+  ""presence"": {
+    ""esophagus"": ""absent"",
+    ""pancreas"": ""present"",
+    ""spleen"": ""present"",
+    ""right adrenal gland"": ""present""
+  }
+}
+```",1,0
+img0006_z077_out_of_range_near_left_kidney,medgemma27b,right_kidney,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. The slice shows the stomach, pancreas, right kidney, and left kidney. The stomach appears as a fluid-filled structure on the left side. The pancreas is located posterior to the stomach. The right kidney is visible on the right side, and the left kidney is visible on the left side."",
+  ""reasoning"": ""The stomach is present in this slice, appearing as a large, fluid-filled structure in the upper left quadrant. The pancreas is present, located posterior to the stomach and slightly to the right. The right kidney is present on the right side of the image. The left kidney is present on the left side of the image."",
+  ""presence"": {
+    ""stomach"": ""present"",
+    ""pancreas"": ""present"",
+    ""right kidney"": ""present"",
+    ""left kidney"": ""present""
+  }
+}
+```",1,0
+img0031_z092_out_of_range_far_liver,medgemma27b,liver,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. The liver, spleen, stomach, and parts of the kidneys are visible. The aorta and inferior vena cava are also present. The esophagus is located more superiorly and is not clearly visible in this slice."",
+  ""reasoning"": ""The liver is a large organ occupying the upper right quadrant and is clearly visible in this slice. The esophagus is typically located posterior to the trachea and heart, superior to the level shown in this slice, so it is not present. The inferior vena cava (IVC) is a large vein located to the right of the aorta, inferior to the liver, and is visible in this slice."",
+  ""presence"": {
+    ""liver"": ""present"",
+    ""esophagus"": ""absent"",
+    ""inferior vena cava"": ""present""
+  }
+}
+```",1,0
+img0039_z084_prior_consistent_esophagus,medgemma27b,portal_splenic_vein,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. The liver, spleen, stomach, left kidney, and parts of the right kidney are visible. The aorta and inferior vena cava are also present. The pancreas is partially visible."",
+  ""reasoning"": ""The esophagus is typically located more posteriorly and superiorly in the chest, although it passes through the diaphragm. In this slice, it is not clearly identifiable. The portal splenic vein is a major vessel near the pancreas and spleen; it is not clearly visible in this specific slice. The liver is a large organ occupying the right upper quadrant and is clearly present. The pancreas is located posterior to the stomach and is partially visible in this slice."",
+  ""presence"": {
+    ""esophagus"": ""absent"",
+    ""portal splenic vein"": ""absent"",
+    ""liver"": ""present"",
+    ""pancreas"": ""present""
+  }
+}
+```",1,1
+img0030_z130_prior_consistent_liver,medgemma27b,stomach,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. The liver is visible on the left side of the image, the spleen is visible on the right side. The stomach is located superior to the liver and spleen. The pancreas is located posterior to the stomach. The left kidney is visible inferior to the spleen and posterior to the stomach."",
+  ""reasoning"": ""The stomach appears as a gas-filled structure superior to the liver and spleen. The liver is a large, solid organ visible on the left side of the image. The pancreas is located posterior to the stomach, appearing as a soft tissue structure. The left kidney is visible inferior to the spleen and posterior to the stomach, appearing as a bean-shaped structure."",
+  ""presence"": {
+    ""stomach"": ""present"",
+    ""liver"": ""present"",
+    ""pancreas"": ""present"",
+    ""left kidney"": ""present""
+  }
+}
+```",1,0
+img0009_z136_out_of_range_near_spleen,medgemma27b,liver,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. The slice shows the liver, spleen, stomach, left kidney, aorta, and parts of the pancreas and adrenal glands. The inferior vena cava is visible adjacent to the aorta. The esophagus is not clearly visible in this slice."",
+  ""reasoning"": ""The esophagus is typically located posterior to the trachea and heart, and it runs superiorly and inferiorly. In this axial slice, which appears to be at the level of the mid-abdomen, the esophagus is not clearly identifiable. The inferior vena cava is a large vein located to the right of the aorta, and it is clearly visible in this slice. The liver is a large organ occupying the upper right quadrant of the abdomen, and a significant portion of it is visible in this slice."",
+  ""presence"": {
+    ""esophagus"": ""absent"",
+    ""inferior vena cava"": ""present"",
+    ""liver"": ""present""
+  }
+}
+```",1,1
+img0022_z064_prior_consistent_gallbladder,medgemma27b,gallbladder,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. The liver, spleen, stomach, pancreas, aorta, and inferior vena cava are visible. The right kidney is partially visible on the right side. The left kidney is partially visible on the left side. The gallbladder is seen inferior to the liver. The right adrenal gland is located superior to the right kidney. The portal splenic vein is located near the portal vein and splenic vein."",
+  ""reasoning"": ""The right adrenal gland is located superior to the right kidney and appears to be present in this slice. The portal splenic vein is located near the portal vein and splenic vein, and appears to be present in this slice. The right kidney is partially visible on the right side of the image and appears to be present. The gallbladder is seen inferior to the liver and appears to be present."",
+  ""presence"": {
+    ""right adrenal gland"": ""present"",
+    ""portal splenic vein"": ""present"",
+    ""right kidney"": ""present"",
+    ""gallbladder"": ""present""
+  }
+}
+```",1,0
+img0032_z108_prior_consistent_gallbladder,medgemma27b,esophagus,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. The liver, stomach, spleen, left kidney, pancreas, aorta, and inferior vena cava are visible. The right kidney is partially visible on the right side. The gallbladder is seen inferior to the liver. The esophagus is not clearly visible in this slice."",
+  ""reasoning"": ""The spleen is a large organ on the left side of the abdomen, clearly visible in this slice. The right kidney is located on the right side of the abdomen, and its upper pole is visible in this slice. The gallbladder is a small organ located inferior to the liver, visible in this slice. The esophagus is located posterior to the trachea and heart, and it is not clearly seen in this axial slice of the upper abdomen."",
+  ""presence"": {
+    ""spleen"": ""present"",
+    ""right kidney"": ""present"",
+    ""gallbladder"": ""present"",
+    ""esophagus"": ""absent""
+  }
+}
+```",1,1
+img0030_z115_prior_consistent_liver,medgemma27b,liver,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. The liver, spleen, stomach, left kidney, pancreas, aorta, and inferior vena cava are visible. The right kidney is partially visible. The esophagus is not clearly visible in this slice."",
+  ""reasoning"": ""The liver is present, occupying the upper right quadrant. The spleen is present, located in the upper left quadrant. The esophagus is a tubular structure that runs posterior to the trachea and heart, typically seen more superiorly or inferiorly in axial slices of the abdomen, not clearly visible in this specific slice which appears to be at the level of the pancreas and kidneys."",
+  ""presence"": {
+    ""liver"": ""present"",
+    ""spleen"": ""present"",
+    ""esophagus"": ""absent""
+  }
+}
+```",1,0
+img0036_z117_out_of_range_far_stomach,medgemma27b,stomach,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. The liver is on the left, the spleen is on the right. The stomach is visible superiorly, the pancreas is centrally located, and the left kidney is visible inferiorly and slightly laterally."",
+  ""reasoning"": ""The spleen is visible on the right side of the image. The left kidney is visible inferiorly on the left side of the image. The pancreas is located centrally, posterior to the stomach. The stomach is visible superiorly, partially obscured by the liver."",
+  ""presence"": {
+    ""spleen"": ""present"",
+    ""left kidney"": ""present"",
+    ""pancreas"": ""present"",
+    ""stomach"": ""present""
+  }
+}
+```",1,0
+img0028_z081_prior_consistent_esophagus,medgemma27b,esophagus,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. It shows the liver, spleen, stomach, and parts of the kidneys and aorta. The slice is located roughly at the level of the stomach and spleen."",
+  ""reasoning"": ""The spleen is visible on the left side of the image, appearing as a relatively homogeneous, slightly crescent-shaped structure. The esophagus is not clearly visible in this slice, as it is typically located more posteriorly and superiorly in the mediastinum or retroesophageal space, which is not the primary focus of this axial view. The liver is visible on the right side, appearing as a large, relatively homogeneous structure. The stomach is visible as a gas-filled structure inferior to the left lobe of the liver and anterior to the spleen."",
+  ""presence"": {
+    ""spleen"": ""present"",
+    ""esophagus"": ""absent"",
+    ""liver"": ""present"",
+    ""stomach"": ""present""
+  }
+}
+```",1,1
+img0035_z063_out_of_range_near_pancreas,medgemma27b,stomach,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. The liver is visible on the left side of the image. The spleen is visible on the upper left. The stomach is visible superior to the liver. The left kidney is visible on the right side of the image. The pancreas is located posterior to the stomach and superior to the left kidney."",
+  ""reasoning"": ""The pancreas is located in the upper abdomen, posterior to the stomach. It appears as a relatively soft tissue structure in this slice, situated between the stomach and the left kidney. The left kidney is visible on the right side of the image, superior to the aorta. The liver is a large organ occupying the upper right quadrant of the abdomen, visible on the left side of this slice. The stomach is located superior to the liver and anterior to the pancreas."",
+  ""presence"": {
+    ""pancreas"": ""present"",
+    ""left kidney"": ""present"",
+    ""liver"": ""present"",
+    ""stomach"": ""present""
+  }
+}
+```",1,0
+img0037_z082_transition_spleen,medgemma27b,portal_splenic_vein,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. The liver is large and occupies the upper right quadrant. The spleen is visible in the upper left quadrant. The stomach is seen as a gas-filled structure in the upper left quadrant, adjacent to the spleen. The pancreas is located centrally, posterior to the stomach. The portal splenic vein is visible near the superior mesenteric vein."",
+  ""reasoning"": ""The stomach is present as a gas-filled structure in the upper left quadrant. The portal splenic vein is present, located near the superior mesenteric vein. The pancreas is present, situated centrally behind the stomach. The spleen is present in the upper left quadrant."",
+  ""presence"": {
+    ""stomach"": ""present"",
+    ""portal splenic vein"": ""present"",
+    ""pancreas"": ""present"",
+    ""spleen"": ""present""
+  }
+}
+```",0,0
+img0023_z065_prior_consistent_pancreas,medgemma27b,portal_splenic_vein,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. The liver is on the left, the spleen is on the right. The stomach is visible superiorly. The pancreas is located centrally, posterior to the stomach. The left kidney is visible inferiorly and slightly to the left. The portal splenic vein is seen near the superior mesenteric artery and vein, superior to the pancreas."",
+  ""reasoning"": ""The pancreas is visible as a soft tissue structure posterior to the stomach and superior to the kidneys. The spleen is visible on the right side of the image. The left kidney is visible inferiorly on the left side of the image. The portal splenic vein is visible superior to the pancreas, near the superior mesenteric vessels."",
+  ""presence"": {
+    ""pancreas"": ""present"",
+    ""spleen"": ""present"",
+    ""left kidney"": ""present"",
+    ""portal splenic vein"": ""present""
+  }
+}
+```",0,0
+img0029_z076_prior_consistent_stomach,medgemma27b,stomach,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. The liver is visible on the left side of the image, the spleen is visible on the right side. The stomach is seen superiorly, partially obscuring the liver. The pancreas is located centrally, posterior to the stomach. The portal splenic vein is seen near the superior border of the pancreas."",
+  ""reasoning"": ""The portal splenic vein is visible as a vessel near the superior border of the pancreas. The stomach is present, located superiorly and partially obscuring the liver. The liver is present on the left side of the image. The pancreas is present, located centrally, posterior to the stomach."",
+  ""presence"": {
+    ""portal splenic vein"": ""present"",
+    ""stomach"": ""present"",
+    ""liver"": ""present"",
+    ""pancreas"": ""present""
+  }
+}
+```",0,0
+img0022_z070_prior_consistent_stomach,medgemma27b,liver,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. The liver, stomach, spleen, and parts of the kidneys are visible. The aorta and inferior vena cava are also present. The pancreas is partially visible."",
+  ""reasoning"": ""The liver is clearly visible on the left side of the image, occupying a large portion of the upper abdomen. The stomach is visible as a gas-filled structure superior to the liver and to the left. The gallbladder is seen as a small, rounded structure nestled in the liver fossa, inferior to the liver. The left kidney is visible on the right side of the image, slightly superior to the right kidney."",
+  ""presence"": {
+    ""liver"": ""present"",
+    ""stomach"": ""present"",
+    ""gallbladder"": ""present"",
+    ""left kidney"": ""present""
+  }
+}
+```",0,0
+img0039_z050_out_of_range_near_pancreas,medgemma27b,pancreas,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. The slice shows the liver, spleen, stomach, pancreas, left kidney, aorta, and parts of the esophagus and inferior vena cava. The right kidney is not visible in this slice."",
+  ""reasoning"": ""The liver is present, occupying the upper right quadrant. The left kidney is present, located in the left retroperitoneum. The pancreas is present, situated posterior to the stomach and medial to the spleen. The stomach is present, located in the upper left quadrant, partially filled with contrast."",
+  ""presence"": {
+    ""liver"": ""present"",
+    ""left kidney"": ""present"",
+    ""pancreas"": ""present"",
+    ""stomach"": ""present""
+  }
+}
+```",0,0
+img0032_z096_prior_consistent_pancreas,medgemma27b,pancreas,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. The liver is on the left, the spleen is on the right, the stomach is superior and slightly left of center, the pancreas is posterior to the stomach, and the aorta is slightly left of the spine. The portal splenic vein is visible near the superior mesenteric artery."",
+  ""reasoning"": ""The spleen is visible on the right side of the image. The pancreas is visible posterior to the stomach. The portal splenic vein is visible near the superior mesenteric artery. The stomach is visible superior and slightly left of center."",
+  ""presence"": {
+    ""spleen"": ""present"",
+    ""pancreas"": ""present"",
+    ""portal splenic vein"": ""present"",
+    ""stomach"": ""present""
+  }
+}
+```",0,0
+img0010_z118_prior_consistent_liver,medgemma27b,pancreas,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. The liver is the largest organ visible, occupying the upper right quadrant. The stomach is seen in the upper left quadrant. The pancreas is located centrally, posterior to the stomach. The portal splenic vein is visible near the superior mesenteric artery and vein."",
+  ""reasoning"": ""The portal splenic vein is a major vessel in the upper abdomen, formed by the confluence of the splenic vein and the superior mesenteric vein. It is located near the head of the pancreas and the superior mesenteric artery. In this slice, a large vein structure is visible in the expected location, consistent with the portal splenic vein. The pancreas is a glandular organ located behind the stomach, extending transversely across the upper abdomen. A portion of the pancreas is visible in this slice. The stomach is a J-shaped organ located in the upper left quadrant of the abdomen. A portion of the stomach is visible in this slice. The liver is the largest internal organ, located in the upper right quadrant. A large portion of the liver is visible in this slice."",
+  ""presence"": {
+    ""portal splenic vein"": ""present"",
+    ""pancreas"": ""present"",
+    ""stomach"": ""present"",
+    ""liver"": ""present""
+  }
+}
+```",0,0
+img0036_z134_prior_consistent_liver,medgemma27b,liver,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. The liver is visible on the left side of the image, the spleen is visible on the right side. The stomach is located superiorly and slightly to the left. The right kidney is visible inferiorly and to the right. The left kidney is visible inferiorly and to the left. The aorta is visible centrally. The inferior vena cava is visible to the right of the aorta. The pancreas is located centrally, posterior to the stomach. The esophagus is located superiorly and posteriorly, between the aorta and trachea (not fully visible). The adrenal glands are located superior to the kidneys."",
+  ""reasoning"": ""The esophagus is a tubular structure located superiorly in the mediastinum, posterior to the trachea and heart. In this axial slice, a portion of the esophagus is visible superiorly, posterior to the stomach and aorta. The left kidney is located in the retroperitoneum on the left side of the abdomen. In this slice, the left kidney is visible inferiorly and to the left. The liver is a large organ located in the upper right quadrant of the abdomen. In this slice, the liver is visible on the left side of the image."",
+  ""presence"": {
+    ""esophagus"": ""present"",
+    ""left kidney"": ""present"",
+    ""liver"": ""present""
+  }
+}
+```",0,0
+img0022_z057_transition_spleen,medgemma27b,liver,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. The liver, spleen, stomach, and a portion of the pancreas are visible. The aorta and inferior vena cava are also present. The portal splenic vein is visible near the spleen and stomach."",
+  ""reasoning"": ""The portal splenic vein is visible as a vessel near the superior aspect of the pancreas, adjacent to the spleen and stomach. The stomach is visible as a gas-filled structure on the left side of the image. The liver is visible on the right side of the image. The spleen is visible on the left side of the image, superior to the stomach."",
+  ""presence"": {
+    ""portal splenic vein"": ""present"",
+    ""stomach"": ""present"",
+    ""liver"": ""present"",
+    ""spleen"": ""present""
+  }
+}
+```",0,0
+img0024_z088_prior_consistent_left_kidney,medgemma27b,spleen,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. The liver, stomach, spleen, left kidney, right kidney, aorta, inferior vena cava, and pancreas are visible. The portal splenic vein is also visible."",
+  ""reasoning"": ""The left kidney is clearly visible on the left side of the image. The right kidney is visible on the right side of the image. The spleen is visible on the left side, superior to the left kidney. The portal splenic vein is visible as a vessel running near the superior border of the pancreas and adjacent to the spleen."",
+  ""presence"": {
+    ""left kidney"": ""present"",
+    ""right kidney"": ""present"",
+    ""spleen"": ""present"",
+    ""portal splenic vein"": ""present""
+  }
+}
+```",0,0
+img0031_z057_out_of_range_near_left_kidney,medgemma27b,pancreas,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. The liver, stomach, spleen, and parts of the kidneys are visible. The aorta and inferior vena cava are also present. The pancreas is partially visible."",
+  ""reasoning"": ""The spleen is visible on the left side of the image. The left kidney is visible on the left side, slightly inferior to the spleen. The right kidney is visible on the right side of the image. The pancreas is located posterior to the stomach and is partially visible in the central part of the image."",
+  ""presence"": {
+    ""spleen"": ""present"",
+    ""left kidney"": ""present"",
+    ""right kidney"": ""present"",
+    ""pancreas"": ""present""
+  }
+}
+```",0,0
+img0004_z098_prior_consistent_gallbladder,medgemma27b,gallbladder,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. The liver is prominently visible on the left side of the image, occupying a large portion. The spleen is visible on the right side, superiorly. The stomach is seen superiorly and centrally. The right kidney is visible inferiorly and to the right. The left kidney is visible inferiorly and to the left. The aorta is seen centrally. The inferior vena cava is seen to the right of the aorta. The pancreas is located centrally, posterior to the stomach. The portal splenic vein is visible near the superior mesenteric artery. The gallbladder is seen inferior to the liver."",
+  ""reasoning"": ""The gallbladder is located inferior to the liver and is visible in this slice. The portal splenic vein is a major vessel in this region, formed by the confluence of the superior mesenteric vein and the splenic vein, and is visible near the superior mesenteric artery. The spleen is located in the upper left quadrant of the abdomen and is clearly visible in this slice. The liver is the largest organ in the abdomen, located primarily in the upper right quadrant, and occupies a significant portion of the left side of this slice."",
+  ""presence"": {
+    ""gallbladder"": ""present"",
+    ""portal splenic vein"": ""present"",
+    ""spleen"": ""present"",
+    ""liver"": ""present""
+  }
+}
+```",0,0
+img0040_z084_transition_pancreas,medgemma27b,spleen,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. The liver, stomach, spleen, left kidney, and parts of the pancreas are visible. The aorta and inferior vena cava are also present. The portal splenic vein is visible near the spleen and pancreas."",
+  ""reasoning"": ""The spleen is visible on the left side of the image. The portal splenic vein is visible as a vessel near the spleen and pancreas. The pancreas is visible as a structure inferior to the stomach and medial to the spleen. The left kidney is visible on the left side, inferior to the spleen and medial to the liver."",
+  ""presence"": {
+    ""spleen"": ""present"",
+    ""portal splenic vein"": ""present"",
+    ""pancreas"": ""present"",
+    ""left kidney"": ""present""
+  }
+}
+```",0,0
+img0031_z077_out_of_range_near_spleen,medgemma27b,stomach,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. It shows the liver on the left, the spleen on the right, the stomach inferiorly, and the esophagus posterior to the stomach. The aorta is visible centrally."",
+  ""reasoning"": ""The esophagus is a tubular structure posterior to the stomach, visible in this slice. The liver is a large organ on the left side of the image. The stomach is a gas-filled structure inferior to the esophagus and liver. The spleen is a solid organ on the right side of the image."",
+  ""presence"": {
+    ""esophagus"": ""present"",
+    ""liver"": ""present"",
+    ""stomach"": ""present"",
+    ""spleen"": ""present""
+  }
+}
+```",0,0
+img0025_z039_out_of_range_far_pancreas,medgemma27b,inferior_vena_cava,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. The slice shows the liver, spleen, stomach, pancreas, aorta, inferior vena cava, and parts of the kidneys and adrenal glands. The esophagus is also visible."",
+  ""reasoning"": ""The left kidney is visible on the left side of the image, appearing as a bean-shaped structure. The inferior vena cava (IVC) is visible to the right of the aorta, appearing as a large, circular vessel. The aorta is visible as a large, circular structure slightly to the left of the IVC. The right kidney is visible on the right side of the image, appearing as a bean-shaped structure."",
+  ""presence"": {
+    ""left kidney"": ""present"",
+    ""inferior vena cava"": ""present"",
+    ""aorta"": ""present"",
+    ""right kidney"": ""present""
+  }
+}
+```",0,0
+img0034_z062_prior_consistent_left_kidney,medgemma27b,spleen,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. The slice shows the spleen, left kidney, stomach, and pancreas, among other structures."",
+  ""reasoning"": ""The stomach is visible as a gas-filled structure on the left side of the image. The left kidney is seen as a bean-shaped structure lateral to the pancreas. The spleen is visible on the upper left side of the image, adjacent to the stomach. The pancreas is seen as a soft tissue structure located centrally, posterior to the stomach and medial to the spleen and left kidney."",
+  ""presence"": {
+    ""stomach"": ""present"",
+    ""left kidney"": ""present"",
+    ""spleen"": ""present"",
+    ""pancreas"": ""present""
+  }
+}
+```",0,0
+img0040_z086_prior_consistent_right_kidney,medgemma27b,right_kidney,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. The liver, stomach, spleen, left kidney, and parts of the pancreas are visible. The aorta and inferior vena cava are also present. The right kidney is partially visible on the right side."",
+  ""reasoning"": ""The portal splenic vein is a major vessel in the upper abdomen, formed by the confluence of the splenic vein and superior mesenteric vein. It is located posterior to the neck of the pancreas and anterior to the superior mesenteric artery. In this slice, the confluence of vessels near the pancreas is visible, suggesting the presence of the portal splenic vein. The pancreas is located posterior to the stomach and anterior to the aorta and vena cava. A portion of the pancreas is clearly visible in the center of the image. The right kidney is located in the upper right quadrant of the abdomen. The upper pole and a portion of the body of the right kidney are visible on the right side of the image. The spleen is located in the upper left quadrant of the abdomen. The spleen is clearly visible on the left side of the image."",
+  ""presence"": {
+    ""portal splenic vein"": ""present"",
+    ""pancreas"": ""present"",
+    ""right kidney"": ""present"",
+    ""spleen"": ""present""
+  }
+}
+```",0,0
+img0030_z129_prior_consistent_spleen,medgemma27b,left_kidney,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. The liver, spleen, stomach, and parts of the kidneys are visible. The aorta and inferior vena cava are also present."",
+  ""reasoning"": ""The right kidney is visible on the right side of the image. The left kidney is visible on the left side of the image. The liver is visible on the left side of the image, superior to the stomach and spleen. The spleen is visible on the left side of the image, posterior to the stomach and lateral to the left kidney."",
+  ""presence"": {
+    ""right kidney"": ""present"",
+    ""left kidney"": ""present"",
+    ""liver"": ""present"",
+    ""spleen"": ""present""
+  }
+}
+```",0,0
+img0031_z059_prior_consistent_stomach,medgemma27b,left_kidney,"```json
+{
+  ""observation"": ""The axial CT slice shows the upper abdomen. The liver is on the left, the spleen is on the right. The stomach is visible in the upper left quadrant. The pancreas is located posterior to the stomach. The gallbladder is seen inferior to the liver. The left kidney is visible in the lower left quadrant."",
+  ""reasoning"": ""The pancreas is located centrally in the upper abdomen, posterior to the stomach, and is visible in this slice. The gallbladder is seen inferior to the liver, near the right kidney, and is present in this slice. The stomach is located in the upper left quadrant, and a portion of it is visible in this slice. The left kidney is located in the lower left quadrant, posterior to the spleen, and is visible in this slice."",
+  ""presence"": {
+    ""pancreas"": ""present"",
+    ""gallbladder"": ""present"",
+    ""stomach"": ""present"",
+    ""left kidney"": ""present""
+  }
+}
+```",0,0
+img0022_z048_transition_liver,medgemma27b,left_kidney,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. The slice shows the liver, spleen, stomach, aorta, inferior vena cava, esophagus, and parts of the kidneys and pancreas."",
+  ""reasoning"": ""The right kidney is visible on the right side of the image, appearing as a bean-shaped structure. The pancreas is located centrally, posterior to the stomach, and is partially visible in this slice. The left kidney is visible on the left side of the image, also appearing as a bean-shaped structure. The liver is visible in the upper right quadrant, surrounding the gallbladder and partially obscuring the right kidney."",
+  ""presence"": {
+    ""right kidney"": ""present"",
+    ""pancreas"": ""present"",
+    ""left kidney"": ""present"",
+    ""liver"": ""present""
+  }
+}
+```",0,0
+img0035_z051_out_of_range_near_right_kidney,medgemma27b,spleen,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. The slice shows the stomach, spleen, liver, aorta, inferior vena cava, and parts of the pancreas and kidneys. The stomach is filled with contrast material. The spleen is visible on the left side. The liver is visible on the right side."",
+  ""reasoning"": ""The spleen is a large organ located in the upper left quadrant of the abdomen, posterior to the stomach. It is clearly visible in this slice. The stomach is a J-shaped organ located in the upper abdomen, primarily on the left side. It is clearly visible in this slice, filled with contrast. The liver is the largest internal organ, located in the upper right quadrant of the abdomen. A significant portion of the liver is visible in this slice."",
+  ""presence"": {
+    ""spleen"": ""present"",
+    ""stomach"": ""present"",
+    ""liver"": ""present""
+  }
+}
+```",0,0
+img0026_z073_out_of_range_near_pancreas,medgemma27b,stomach,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. The liver, spleen, stomach, and parts of the kidneys and pancreas are visible. The aorta and inferior vena cava are also present."",
+  ""reasoning"": ""The stomach is visible as a gas-filled structure on the left side of the image. The right kidney is visible on the right side of the image. The pancreas is visible as a soft tissue structure located between the stomach and the duodenum. The left kidney is visible on the left side of the image, medial to the spleen."",
+  ""presence"": {
+    ""stomach"": ""present"",
+    ""right kidney"": ""present"",
+    ""pancreas"": ""present"",
+    ""left kidney"": ""present""
+  }
+}
+```",0,0
+img0033_z077_out_of_range_near_gallbladder,medgemma27b,right_kidney,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. The liver, spleen, stomach, and parts of the kidneys are visible. The aorta and inferior vena cava are also present. The pancreas is partially visible."",
+  ""reasoning"": ""The right kidney is visible on the right side of the image. The liver is the large organ on the left side of the image. The pancreas is located centrally, posterior to the stomach, and is partially visible in this slice. The left kidney is visible on the left side of the image."",
+  ""presence"": {
+    ""right kidney"": ""present"",
+    ""liver"": ""present"",
+    ""pancreas"": ""present"",
+    ""left kidney"": ""present""
+  }
+}
+```",0,0
+img0021_z113_out_of_range_near_right_kidney,medgemma27b,spleen,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. The liver, spleen, stomach, and parts of the kidneys are visible. The aorta and inferior vena cava are also present. The pancreas is partially visible."",
+  ""reasoning"": ""The left kidney is visible on the left side of the image. The pancreas is visible inferior to the stomach and medial to the spleen. The spleen is visible on the left side of the image, superior to the left kidney. The right kidney is visible on the right side of the image."",
+  ""presence"": {
+    ""left kidney"": ""present"",
+    ""pancreas"": ""present"",
+    ""spleen"": ""present"",
+    ""right kidney"": ""present""
+  }
+}
+```",0,0
+img0028_z053_out_of_range_far_spleen,medgemma27b,spleen,"```json
+{
+  ""observation"": ""This is an axial CT slice of the upper abdomen. The liver, spleen, stomach, pancreas, aorta, inferior vena cava, and parts of the kidneys are visible. The left kidney is clearly seen on the left side of the image. The spleen is visible on the upper left. The stomach is seen as a gas-filled structure on the left side, superior to the spleen. The right kidney is visible on the right side of the image."",
+  ""reasoning"": ""The left kidney is present in this slice, located on the left side of the vertebral column. The stomach is present, appearing as a gas-filled structure superior to the spleen and medial to the liver. The spleen is present on the upper left side of the abdomen, lateral to the stomach and superior to the left kidney. The right kidney is present on the right side of the vertebral column."",
+  ""presence"": {
+    ""left kidney"": ""present"",
+    ""stomach"": ""present"",
+    ""spleen"": ""present"",
+    ""right kidney"": ""present""
+  }
+}
+```",0,0
+img0024_z090_transition_spleen,qwen,portal_splenic_vein,"```json
+{
+  ""observation"": ""This axial CT slice shows a cross-section of the abdomen with various organs visible. The liver is prominent on the right side, the kidneys are seen on both sides, and the aorta and inferior vena cava are visible in the midline. The pancreas is also partially visible. There is no clear view of the gallbladder in this slice."",
+  ""reasoning"": ""The portal splenic vein is not clearly visible in this slice due to the angle and resolution of the image. The right kidney is present as it is visible on the right side of the image. The gallbladder is not visible in this slice, likely because it is not in the field of view or obscured by other structures. The spleen is present as it is visible on the left side of the image."",
+  ""presence"": {
+    ""portal splenic vein"": ""absent"",
+    ""right kidney"": ""present"",
+    ""gallbladder"": ""absent"",
+    ""spleen"": ""present""
+  }
+}
+```",1,1
+img0003_z139_prior_consistent_spleen,qwen,esophagus,"```json
+{
+  ""observation"": ""This axial CT slice shows a cross-section of the abdomen with various organs visible. The liver is prominent on the right side, and the stomach is seen below it. The aorta and inferior vena cava are also visible. The spleen is not clearly visible in this slice."",
+  ""reasoning"": ""The spleen is not clearly visible in this slice due to its location being obscured by other structures such as the stomach and liver. The esophagus is not directly visible in this slice but can be inferred from its typical position in the neck and upper thorax. The gallbladder is not visible in this slice either, likely because it is not in the field of view at this level."",
+  ""presence"": {
+    ""spleen"": ""absent"",
+    ""esophagus"": ""absent"",
+    ""gallbladder"": ""absent""
+  }
+}
+```",1,1
+img0034_z068_out_of_range_near_gallbladder,qwen,gallbladder,"```json
+{
+  ""observation"": ""This axial CT slice shows the upper abdomen with various organs visible. The liver is prominent on the left side, and the kidneys are seen on both sides. There is a structure that appears to be the aorta and inferior vena cava. The pancreas is not clearly visible in this slice due to its location deep within the abdomen."",
+  ""reasoning"": ""The pancreas is not clearly visible in this slice because it is located deep within the abdomen and is not prominently displayed in this particular cross-sectional view. The gallbladder is also not visible in this slice as it is typically located in the right upper quadrant and is not shown here. The spleen is visible on the left side of the image, confirming its presence. The right adrenal gland is also visible on the right side of the image, confirming its presence."",
+  ""presence"": {
+    ""pancreas"": ""absent"",
+    ""gallbladder"": ""absent"",
+    ""spleen"": ""present"",
+    ""right adrenal gland"": ""present""
+  }
+}
+```",1,0
+img0035_z086_out_of_range_far_right_kidney,qwen,liver,"```json
+{
+  ""observation"": ""This axial CT slice shows a cross-section of the upper abdomen. The liver is visible on the right side, with the stomach and part of the esophagus seen above it. The aorta and inferior vena cava are also visible in the midline. The spleen is not clearly visible in this slice."",
+  ""reasoning"": ""The liver is clearly visible on the right side of the image, indicating its presence. The stomach and part of the esophagus are also visible, confirming their presence. The aorta and inferior vena cava are seen in the midline, suggesting they are present. The spleen is not clearly visible in this slice, which could be due to its location being outside the field of view at this level or it may be obscured by other structures."",
+  ""presence"": {
+    ""spleen"": ""absent"",
+    ""liver"": ""present"",
+    ""pancreas"": ""absent"",
+    ""portal splenic vein"": ""absent""
+  }
+}
+```",1,0
+img0031_z086_prior_consistent_esophagus,qwen,liver,"```json
+{
+  ""observation"": ""This axial CT slice shows a cross-section of the upper abdomen. The liver is visible on the right side of the image, with the inferior vena cava (IVC) located posterior to it. The esophagus is not clearly visible in this slice."",
+  ""reasoning"": ""The liver is present as it is clearly visible on the right side of the image. The inferior vena cava is also present, as it is seen posterior to the liver. The esophagus is not clearly visible in this slice due to its location behind the trachea and the angle at which the slice was taken."",
+  ""presence"": {
+    ""liver"": ""present"",
+    ""esophagus"": ""absent"",
+    ""inferior vena cava"": ""present""
+  }
+}
+```",1,0
+img0002_z122_out_of_range_near_esophagus,qwen,pancreas,"```json
+{
+  ""observation"": ""This axial CT slice shows a cross-section of the upper abdomen. The liver is prominently visible on the right side, with the stomach located below it. The spleen is not clearly visible in this slice due to its position behind the stomach and liver. The aorta and inferior vena cava are also visible in the midline, but the pancreas and portal splenic vein are not distinctly identifiable in this particular slice."",
+  ""reasoning"": ""The pancreas is not clearly visible in this slice because it is located deeper within the abdomen and is not well-defined in this cross-sectional view. The stomach is present as it is clearly seen below the liver. The spleen is not visible in this slice likely due to its location posterior to the stomach and liver, which obscures it from this angle. The portal splenic vein is not distinctly identifiable in this slice due to the complexity of the vascular structures and the angle of the slice."",
+  ""presence"": {
+    ""pancreas"": ""absent"",
+    ""stomach"": ""present"",
+    ""spleen"": ""absent"",
+    ""portal splenic vein"": ""absent""
+  }
+}
+```",1,1
+img0037_z062_transition_gallbladder,qwen,gallbladder,"```json
+{
+  ""observation"": ""This axial CT slice shows a cross-section of the abdomen with various organs and structures visible. The liver is seen on the right side of the image, and part of the stomach is visible on the left side. The spleen is not clearly visible in this slice."",
+  ""reasoning"": ""The stomach is partially visible on the left side of the image, indicating its presence. The liver is clearly visible on the right side of the image, confirming its presence. The spleen is not clearly visible in this slice, which could be due to its location being outside the field of view at this particular slice level or it may be obscured by other structures. The gallbladder is not visible in this slice as it is typically located in the upper right quadrant of the abdomen and is not shown here."",
+  ""presence"": {
+    ""stomach"": ""present"",
+    ""gallbladder"": ""absent"",
+    ""spleen"": ""absent"",
+    ""liver"": ""present""
+  }
+}
+```",1,0
+img0002_z105_prior_consistent_left_kidney,qwen,left_kidney,"```json
+{
+  ""observation"": ""The axial CT slice shows a cross-section of the abdomen with various organs visible. The liver is prominent on the left side, and the kidneys are partially visible on both sides. The gallbladder is not clearly identifiable in this slice."",
+  ""reasoning"": ""The liver is clearly visible on the left side of the image, indicating its presence. The kidneys are partially visible on both sides, suggesting their presence as well. However, the gallbladder is not distinctly visible in this particular slice, which could be due to its location or the angle of the scan."",
+  ""presence"": {
+    ""gallbladder"": ""absent"",
+    ""liver"": ""present"",
+    ""left kidney"": ""present"",
+    ""right kidney"": ""present""
+  }
+}
+```",1,0
+img0007_z136_transition_spleen,qwen,stomach,"```json
+{
+  ""observation"": ""This axial CT slice shows a cross-section of the upper abdomen. The liver is visible on the right side, with the spleen located on the left side. The aorta and inferior vena cava are also visible in the midline. The stomach is not clearly visible in this particular slice."",
+  ""reasoning"": ""The liver is present as it is clearly visible on the right side of the image. The spleen is also present, located on the left side. The stomach is not clearly visible in this slice due to its position and the angle of the scan. The portal splenic vein is not distinctly visible in this slice, but it may be present and obscured by other structures."",
+  ""presence"": {
+    ""stomach"": ""absent"",
+    ""liver"": ""present"",
+    ""spleen"": ""present"",
+    ""portal splenic vein"": ""present (unclear visibility)""
+  }
+}
+```",1,1
+img0034_z073_transition_gallbladder,qwen,stomach,"```json
+{
+  ""observation"": ""This axial CT slice shows a cross-section of the abdomen with various organs visible. The liver is prominent on the right side, and the spleen is seen on the left. The aorta and inferior vena cava are also visible. There is no clear depiction of the stomach, gallbladder, or esophagus in this particular slice."",
+  ""reasoning"": ""The stomach is not clearly visible in this slice due to its location and the angle of the scan. The gallbladder is not visible as it is typically located in the upper right quadrant of the abdomen, which is not shown in this slice. The esophagus is not visible in this axial view, as it runs vertically through the thoracic cavity and is not captured in this abdominal slice."",
+  ""presence"": {
+    ""stomach"": ""absent"",
+    ""right kidney"": ""absent"",
+    ""gallbladder"": ""absent"",
+    ""esophagus"": ""absent""
+  }
+}
+```",1,1
+img0040_z131_out_of_range_near_liver,qwen,stomach,"```json
+{
+  ""observation"": ""This axial CT slice shows a cross-section of the upper abdomen. The image includes the heart, lungs, and part of the diaphragm. The liver is visible on the right side, and the aorta and inferior vena cava are seen in the midline. The stomach is not clearly visible in this slice."",
+  ""reasoning"": ""The stomach is not clearly visible in this slice because it is not in the plane of the image. The liver is present as it is visible on the right side of the image. The esophagus is not visible in this slice due to its location behind the trachea and the angle at which the CT scan was taken."",
+  ""presence"": {
+    ""stomach"": ""absent"",
+    ""liver"": ""present"",
+    ""esophagus"": ""absent""
+  }
+}
+```",1,1
+img0022_z046_out_of_range_far_pancreas,qwen,liver,"```json
+{
+  ""observation"": ""This axial CT slice shows a cross-section of the abdomen with various organs visible. The liver is located on the right side of the image, partially obscured by other structures. The stomach is not clearly visible in this slice."",
+  ""reasoning"": ""The liver is present as it is visible on the right side of the image, though partially obscured by other structures. The stomach is not clearly visible in this slice due to the positioning and potential overlap with other abdominal structures."",
+  ""presence"": {
+    ""liver"": ""present"",
+    ""stomach"": ""absent""
+  }
+}
+```",1,0
+img0033_z083_transition_esophagus,qwen,esophagus,"```json
+{
+  ""observation"": ""This axial CT slice shows a cross-section of the upper abdomen. The liver is prominently visible on the right side, with the stomach partially seen below it. The aorta and inferior vena cava are also visible in the midline. The spleen is not clearly visible in this slice."",
+  ""reasoning"": ""The pancreas is not directly visible in this slice due to its location deep within the abdomen and its small size. The portal splenic vein is not distinctly visible in this particular slice either. The spleen is not clearly visible in this slice, likely due to its position and the angle of the scan. The esophagus is not visible in this axial slice as it runs vertically through the thoracic cavity and is not captured in this cross-sectional view."",
+  ""presence"": {
+    ""pancreas"": ""absent"",
+    ""portal splenic vein"": ""absent"",
+    ""spleen"": ""absent"",
+    ""esophagus"": ""absent""
+  }
+}
+```",1,0
+img0030_z142_prior_consistent_esophagus,qwen,esophagus,"```json
+{
+  ""observation"": ""This axial CT slice shows a cross-section of the upper abdomen. The image includes parts of the liver, stomach, and possibly the spleen, but the esophagus is not clearly visible."",
+  ""reasoning"": ""The liver is visible on the right side of the image, indicating its presence. The stomach is also visible, as part of its structure can be seen in the lower central area. The spleen is not clearly visible in this slice, which could be due to its location being outside the field of view at this level. The esophagus is not distinctly visible in this particular slice, likely because it is not in the plane of the image."",
+  ""presence"": {
+    ""spleen"": ""absent"",
+    ""liver"": ""present"",
+    ""stomach"": ""present"",
+    ""esophagus"": ""absent""
+  }
+}
+```",1,1
+img0022_z082_out_of_range_near_stomach,qwen,esophagus,"```json
+{
+  ""observation"": ""This axial CT slice shows a cross-section of the thorax and upper abdomen. The heart and great vessels are prominent, with the aorta and inferior vena cava visible. The lungs are also seen, but no clear evidence of the stomach, spleen, or esophagus is present in this particular slice."",
+  ""reasoning"": ""The stomach is not clearly visible in this slice as it is not in the field of view. The spleen is not visible either, likely due to its location being outside the field of view at this level. The esophagus is not distinctly identifiable in this slice, possibly because it is not in the plane of the image or obscured by other structures. The liver is partially visible, but only a portion of it can be seen in this slice."",
+  ""presence"": {
+    ""stomach"": ""absent"",
+    ""spleen"": ""absent"",
+    ""esophagus"": ""absent"",
+    ""liver"": ""present""
+  }
+}
+```",1,1
+img0036_z151_transition_esophagus,qwen,esophagus,"```json
+{
+  ""observation"": ""This axial CT slice shows a cross-section of the upper abdomen. The liver is prominently visible on the left side, with the right kidney partially seen on the right. The aorta and inferior vena cava are also visible, along with portions of the pancreas and spleen. The stomach is not clearly visible in this slice."",
+  ""reasoning"": ""The esophagus is not visible in this slice as it is located higher up in the neck and thorax. The stomach is not clearly visible in this slice due to its position lower down in the abdomen and the angle of the slice. The portal splenic vein can be inferred to be present based on the location of the spleen and the expected course of the vein. The pancreas is partially visible in this slice, indicating its presence."",
+  ""presence"": {
+    ""esophagus"": ""absent"",
+    ""stomach"": ""absent"",
+    ""portal splenic vein"": ""present"",
+    ""pancreas"": ""present""
+  }
+}
+```",1,0
+img0010_z128_out_of_range_far_right_kidney,qwen,pancreas,"```json
+{
+  ""observation"": ""This axial CT slice shows a cross-section of the upper abdomen. The liver is visible on the left side, with the right kidney and part of the left kidney also seen. The aorta and inferior vena cava are located centrally, with the portal splenic vein likely present but not clearly delineated. The pancreas is not distinctly visible in this slice."",
+  ""reasoning"": ""The liver is clearly visible on the left side of the image, indicating its presence. The portal splenic vein is not distinctly visible in this slice due to the resolution and angle of the scan. The pancreas is not clearly delineated in this particular slice, so its presence cannot be confirmed. The esophagus is not visible in this axial slice as it would be located higher up in the neck and thoracic region."",
+  ""presence"": {
+    ""liver"": ""present"",
+    ""portal splenic vein"": ""absent"",
+    ""pancreas"": ""absent"",
+    ""esophagus"": ""absent""
+  }
+}
+```",1,1
+img0037_z083_out_of_range_far_pancreas,qwen,liver,"```json
+{
+  ""observation"": ""This axial CT slice shows a cross-section of the upper abdomen. The liver is visible on the right side, and part of the stomach can be seen at the bottom center. The spleen is not clearly visible in this slice."",
+  ""reasoning"": ""The liver is clearly visible on the right side of the image, indicating its presence. The stomach is also visible at the bottom center, confirming its presence. The spleen is not clearly visible in this slice, suggesting it may be absent or obscured by other structures. The pancreas is not distinctly visible in this particular slice."",
+  ""presence"": {
+    ""pancreas"": ""absent"",
+    ""liver"": ""present"",
+    ""spleen"": ""absent"",
+    ""stomach"": ""present""
+  }
+}
+```",1,0
+img0008_z094_prior_consistent_pancreas,qwen,right_kidney,"```json
+{
+  ""observation"": ""This axial CT slice shows a cross-section of the abdomen with various organs and structures visible. The image includes parts of the intestines, the spine, and other abdominal contents. The liver is partially visible on the right side of the image, while the left kidney is not clearly seen due to the angle and position."",
+  ""reasoning"": ""The left kidney is not clearly visible in this slice due to its position and the angle of the scan. The pancreas is not distinctly visible in this particular slice as it is located deeper within the abdomen and may be obscured by other structures. The right kidney is partially visible but not fully in view. The liver is present and can be seen on the right side of the image."",
+  ""presence"": {
+    ""left kidney"": ""absent"",
+    ""pancreas"": ""absent"",
+    ""right kidney"": ""present"",
+    ""liver"": ""present""
+  }
+}
+```",1,0
+img0034_z077_out_of_range_far_right_kidney,qwen,pancreas,"```json
+{
+  ""observation"": ""This axial CT slice shows a cross-section of the abdomen with various organs visible. The liver is prominent on the right side, the stomach is partially visible in the center, and the pancreas is located behind the stomach. The left kidney is not clearly visible in this slice due to its position and potential overlap with other structures."",
+  ""reasoning"": ""The left kidney is not clearly visible in this slice because it is likely obscured by the liver and other structures. The pancreas is present but not fully visible due to its location behind the stomach. The stomach is present and partially visible in the center of the image. The liver is clearly visible on the right side of the image."",
+  ""presence"": {
+    ""left kidney"": ""absent"",
+    ""pancreas"": ""present"",
+    ""stomach"": ""present"",
+    ""liver"": ""present""
+  }
+}
+```",1,0
+img0027_z081_out_of_range_far_spleen,qwen,liver,"```json
+{
+  ""observation"": ""This axial CT slice shows a cross-section of the upper abdomen. The liver is visible on the right side, and part of the stomach is seen on the left side. The spleen is also visible on the left side, adjacent to the stomach. The esophagus is not directly visible in this slice."",
+  ""reasoning"": ""The liver is clearly visible on the right side of the image, indicating its presence. The stomach is partially visible on the left side, confirming its presence as well. The spleen is also visible on the left side, adjacent to the stomach, indicating its presence. The esophagus is not directly visible in this slice due to its location behind the trachea and the angle of the CT slice."",
+  ""presence"": {
+    ""esophagus"": ""absent"",
+    ""stomach"": ""present"",
+    ""liver"": ""present"",
+    ""spleen"": ""present""
+  }
+}
+```",1,0
+img0005_z064_out_of_range_far_esophagus,qwen,left_kidney,"```json
+{
+  ""observation"": ""This axial CT slice shows a cross-section of the abdomen with various organs visible. The liver is prominently seen on the right side, the stomach is located centrally, and parts of the intestines are visible. The kidneys are not clearly distinguishable in this particular slice due to their location and the angle of the scan."",
+  ""reasoning"": ""The right kidney is not clearly visible in this slice due to its position and the angle of the scan. The esophagus is not visible in this slice as it is located in the upper thoracic region and not in the abdominal area shown here. The liver is present and clearly visible on the right side of the image. The left kidney is also not clearly visible in this slice due to its position and the angle of the scan."",
+  ""presence"": {
+    ""right kidney"": ""absent"",
+    ""esophagus"": ""absent"",
+    ""liver"": ""present"",
+    ""left kidney"": ""absent""
+  }
+}
+```",1,1
+img0022_z077_out_of_range_near_esophagus,qwen,pancreas,"```json
+{
+  ""observation"": ""This axial CT slice shows a cross-section of the upper abdomen. The liver is visible on the right side, with the stomach partially seen below it. The aorta and inferior vena cava are also visible in the midline. The pancreas is not clearly delineated in this slice."",
+  ""reasoning"": ""The stomach is partially visible below the liver, indicating its presence. The liver is clearly seen on the right side of the image. The portal splenic vein is not distinctly visible in this slice due to the resolution and angle of the scan. The pancreas is not clearly delineated in this slice, likely due to its location deep within the abdomen and the angle of the scan."",
+  ""presence"": {
+    ""stomach"": ""present"",
+    ""liver"": ""present"",
+    ""portal splenic vein"": ""absent"",
+    ""pancreas"": ""absent""
+  }
+}
+```",1,1
+img0027_z076_out_of_range_far_right_kidney,qwen,esophagus,"```json
+{
+  ""observation"": ""This axial CT slice shows a cross-section of the upper abdomen. The liver is prominently visible on the left side, with the stomach located below it. The aorta and inferior vena cava are seen in the midline. The spleen is not clearly visible in this slice."",
+  ""reasoning"": ""The pancreas is not directly visible in this slice due to its location deep within the abdomen and its small size. The spleen is also not clearly visible, likely due to its position posteriorly and the angle of the slice. The stomach is present and can be identified by its shape and location below the liver. The esophagus is not visible in this slice as it is not included in the cross-sectional view."",
+  ""presence"": {
+    ""pancreas"": ""absent"",
+    ""spleen"": ""absent"",
+    ""stomach"": ""present"",
+    ""esophagus"": ""absent""
+  }
+}
+```",1,0
+img0010_z089_prior_consistent_gallbladder,qwen,portal_splenic_vein,"```json
+{
+  ""observation"": ""This axial CT slice shows a cross-section of the abdomen with various organs visible. The liver is seen on the right side, the spleen is on the left, and the kidneys are partially visible. The aorta and inferior vena cava are also identifiable. The pancreas is not clearly visible in this slice."",
+  ""reasoning"": ""The gallbladder is not visible in this slice as it is typically located in the upper right quadrant of the abdomen and is not shown here. The portal splenic vein is not distinctly visible in this slice due to the resolution and angle of the image. The liver is present and can be identified by its characteristic shape and location. The spleen is also present and can be seen on the left side of the image. The kidneys are partially visible but not fully in this slice."",
+  ""presence"": {
+    ""gallbladder"": ""absent"",
+    ""portal splenic vein"": ""absent"",
+    ""liver"": ""present"",
+    ""spleen"": ""present""
+  }
+}
+```",1,1
+img0040_z179_transition_esophagus,qwen,aorta,"```json
+{
+  ""observation"": ""This axial CT slice shows a cross-section through the upper abdomen, displaying the vertebral column, ribs, and part of the thoracic cavity. The image includes the heart, trachea, and surrounding soft tissues. The liver and parts of the abdominal wall are also visible."",
+  ""reasoning"": ""The esophagus is not typically visualized on an axial CT slice at this level, as it runs vertically along the posterior mediastinum. The inferior vena cava (IVC) and aorta are both major blood vessels that can be seen in this slice. The IVC is located to the right of the spine, and the aorta is to the left. Both appear as dark circular structures within the abdominal cavity."",
+  ""presence"": {
+    ""esophagus"": ""absent"",
+    ""inferior vena cava"": ""present"",
+    ""aorta"": ""present""
+  }
+}
+```",0,0
+img0032_z085_out_of_range_far_stomach,qwen,right_kidney,"```json
+{
+  ""observation"": ""This axial CT slice shows a cross-section of the abdomen with various organs and structures visible. The liver is located on the right side of the image, the stomach is partially visible in the center, the right kidney is seen on the left side, and the pancreas is located behind the stomach."",
+  ""reasoning"": ""The liver is clearly visible on the right side of the image, indicating its presence. The stomach is also visible in the center of the image, confirming its presence. The right kidney is seen on the left side of the image, showing its presence. The pancreas is located behind the stomach and is partially visible, indicating its presence."",
+  ""presence"": {
+    ""liver"": ""present"",
+    ""stomach"": ""present"",
+    ""right kidney"": ""present"",
+    ""pancreas"": ""present""
+  }
+}
+```",0,0
+img0022_z059_out_of_range_near_gallbladder,qwen,portal_splenic_vein,"```json
+{
+  ""observation"": ""This axial CT slice shows a cross-section of the abdomen with various organs visible. The liver is seen on the right side, the pancreas is located behind the stomach, the portal splenic vein can be identified as a structure near the pancreas, and the stomach is visible in the center of the image."",
+  ""reasoning"": ""The liver is clearly visible on the right side of the image, indicating its presence. The pancreas is located behind the stomach, which is also visible in the center of the image. The portal splenic vein is identifiable as a structure near the pancreas. The stomach is prominently displayed in the center of the image."",
+  ""presence"": {
+    ""liver"": ""present"",
+    ""pancreas"": ""present"",
+    ""portal splenic vein"": ""present"",
+    ""stomach"": ""present""
+  }
+}
+```",0,0
+img0029_z039_out_of_range_far_liver,qwen,right_kidney,"```json
+{
+  ""observation"": ""The axial CT slice shows a cross-section of the abdomen with various organs and structures visible. The liver is located on the right side of the image, the kidneys are on either side of the spine, and the stomach is partially visible at the bottom center."",
+  ""reasoning"": ""The liver is clearly visible on the right side of the image, indicating its presence. The right kidney is also visible on the right side of the spine, confirming its presence. The left kidney is visible on the left side of the spine, confirming its presence as well. The stomach is partially visible at the bottom center of the image, indicating its presence."",
+  ""presence"": {
+    ""liver"": ""present"",
+    ""right kidney"": ""present"",
+    ""left kidney"": ""present"",
+    ""stomach"": ""present""
+  }
+}
+```",0,0
+img0022_z046_out_of_range_near_left_kidney,qwen,stomach,"```json
+{
+  ""observation"": ""This axial CT slice shows a cross-section of the abdomen with various organs visible. The liver is seen on the right side of the image, and part of the stomach is visible on the left side. The aorta and inferior vena cava are also identifiable in the midline."",
+  ""reasoning"": ""The stomach is partially visible on the left side of the image, indicating its presence. The liver is clearly seen on the right side of the image, confirming its presence as well."",
+  ""presence"": {
+    ""stomach"": ""present"",
+    ""liver"": ""present""
+  }
+}
+```",0,0
+img0029_z040_prior_consistent_pancreas,qwen,right_kidney,"```json
+{
+  ""observation"": ""This axial CT slice shows a cross-section of the abdomen with various organs visible. The liver is located on the right side of the image, the stomach is partially visible at the bottom center, the right kidney is on the left side, and the pancreas is seen in the midline posterior to the stomach."",
+  ""reasoning"": ""The liver is clearly visible on the right side of the image, confirming its presence. The stomach is also visible at the bottom center, indicating its presence. The right kidney is seen on the left side, confirming its presence. The pancreas is located in the midline posterior to the stomach, which is consistent with its anatomical position."",
+  ""presence"": {
+    ""liver"": ""present"",
+    ""stomach"": ""present"",
+    ""right kidney"": ""present"",
+    ""pancreas"": ""present""
+  }
+}
+```",0,0
+img0040_z072_out_of_range_near_left_kidney,qwen,aorta,"```json
+{
+  ""observation"": ""This axial CT slice shows a cross-section of the abdomen with various organs and structures visible. The liver is seen on the right side of the image, the aorta is located centrally, and the inferior vena cava is also visible centrally but slightly to the right of the aorta."",
+  ""reasoning"": ""The aorta is clearly visible as a circular structure centrally located in the image. The liver is also visible on the right side of the image, showing its characteristic density and shape. The inferior vena cava is seen centrally, slightly to the right of the aorta, and is recognizable by its tubular appearance."",
+  ""presence"": {
+    ""aorta"": ""present"",
+    ""liver"": ""present"",
+    ""inferior vena cava"": ""present""
+  }
+}
+```",0,0
+img0008_z102_prior_consistent_pancreas,qwen,pancreas,"```json
+{
+  ""observation"": ""This axial CT slice shows a cross-section of the upper abdomen. The liver is visible on the left side, with the right kidney partially seen on the right. The aorta and inferior vena cava are also visible. There is no clear visualization of the spleen, gallbladder, stomach, or pancreas in this particular slice."",
+  ""reasoning"": ""The liver is clearly visible on the left side, indicating its presence. The right kidney is partially seen on the right side, suggesting its presence as well. The aorta and inferior vena cava are identifiable, confirming their presence. However, there is no distinct visualization of the spleen, gallbladder, stomach, or pancreas in this slice due to the angle and position of the organs relative to the slice."",
+  ""presence"": {
+    ""gallbladder"": ""absent"",
+    ""stomach"": ""absent"",
+    ""spleen"": ""absent"",
+    ""pancreas"": ""absent""
+  }
+}
+```",0,1
+img0024_z070_out_of_range_near_right_kidney,qwen,liver,"```json
+{
+  ""observation"": ""This axial CT slice shows a cross-section of the abdomen with various organs visible. The liver is seen on the right side, the spleen is located on the left side, and the stomach is partially visible at the bottom center."",
+  ""reasoning"": ""The stomach is present as it is clearly visible in the lower central part of the image. The liver is also present, identifiable by its characteristic shape and location on the right side of the image. The spleen is present as well, located on the left side of the image."",
+  ""presence"": {
+    ""stomach"": ""present"",
+    ""liver"": ""present"",
+    ""spleen"": ""present""
+  }
+}
+```",0,0
+img0040_z072_out_of_range_near_left_kidney,qwen,liver,"```json
+{
+  ""observation"": ""This axial CT slice shows a cross-section of the abdomen with various organs and structures visible. The liver is seen on the right side of the image, the aorta is located centrally, and the inferior vena cava is also visible centrally but slightly to the right of the aorta."",
+  ""reasoning"": ""The aorta is clearly visible as a circular structure centrally located in the image. The liver is also visible on the right side of the image, showing its characteristic density and shape. The inferior vena cava is seen centrally, slightly to the right of the aorta, and is recognizable by its tubular appearance."",
+  ""presence"": {
+    ""aorta"": ""present"",
+    ""liver"": ""present"",
+    ""inferior vena cava"": ""present""
+  }
+}
+```",0,0
+img0004_z080_transition_left_kidney,qwen,stomach,"```json
+{
+  ""observation"": ""This axial CT slice shows a cross-section of the abdomen with various organs visible. The left kidney is located on the left side of the image, the stomach is seen in the central region, the pancreas is partially visible behind the stomach, and the liver is on the right side of the image."",
+  ""reasoning"": ""The left kidney is clearly visible on the left side of the image. The stomach is also visible in the central region of the image. The pancreas is partially visible behind the stomach. The liver is on the right side of the image, and its presence is confirmed by its characteristic shape and location."",
+  ""presence"": {
+    ""left kidney"": ""present"",
+    ""stomach"": ""present"",
+    ""pancreas"": ""present"",
+    ""liver"": ""present""
+  }
+}
+```",0,0
+img0037_z053_out_of_range_near_right_kidney,qwen,aorta,"```json
+{
+  ""observation"": ""This axial CT slice shows a cross-section of the abdomen with various organs visible. The liver is seen on the right side of the image, and the aorta is located centrally, just below the diaphragm."",
+  ""reasoning"": ""The aorta is clearly visible in the central part of the image, just below the diaphragm, indicating its presence. The liver is also visible on the right side of the image, confirming its presence."",
+  ""presence"": {
+    ""aorta"": ""present"",
+    ""liver"": ""present""
+  }
+}
+```",0,0
+img0001_z075_out_of_range_far_pancreas,qwen,spleen,"```json
+{
+  ""observation"": ""This axial CT slice shows a cross-section of the abdomen with various organs visible. The liver is located on the right side of the image, the spleen is on the left side, and part of the stomach is visible at the bottom center."",
+  ""reasoning"": ""The liver is clearly visible on the right side of the image, indicating its presence. The spleen is also visible on the left side, confirming its presence. The stomach is partially visible at the bottom center of the image, suggesting its presence as well."",
+  ""presence"": {
+    ""liver"": ""present"",
+    ""spleen"": ""present"",
+    ""stomach"": ""present""
+  }
+}
+```",0,0
+img0006_z109_transition_left_kidney,qwen,right_kidney,"```json
+{
+  ""observation"": ""The axial CT slice shows a cross-section of the abdomen with visible structures including the liver, spleen, kidneys, and part of the abdominal cavity. The aorta and inferior vena cava are also visible."",
+  ""reasoning"": ""Analyzing the image, the following observations can be made about the presence of each organ:\n- **Left Kidney**: Present. The left kidney is visible on the left side of the image.\n- **Stomach**: Absent. There is no clear depiction of the stomach in this particular slice.\n- **Pancreas**: Present. A portion of the pancreas is visible in the lower central area of the image.\n- **Right Kidney**: Present. The right kidney is visible on the right side of the image."",
+  ""presence"": {
+    ""left kidney"": ""present"",
+    ""stomach"": ""absent"",
+    ""pancreas"": ""present"",
+    ""right kidney"": ""present""
+  }
+}
+```",0,0
+img0037_z057_out_of_range_far_stomach,qwen,right_kidney,"```json
+{
+  ""observation"": ""This axial CT slice shows a cross-section of the abdomen with various organs and structures visible. The liver is seen on the right side of the image, the stomach is located centrally, and parts of the kidneys can be observed on both sides. The pancreas is also visible in the lower central part of the image."",
+  ""reasoning"": ""The liver is clearly visible on the right side of the image, indicating its presence. The stomach is located centrally, which is consistent with its normal position. The right kidney is also visible on the right side of the image. The pancreas is seen in the lower central part of the image, confirming its presence."",
+  ""presence"": {
+    ""liver"": ""present"",
+    ""stomach"": ""present"",
+    ""right kidney"": ""present"",
+    ""pancreas"": ""present""
+  }
+}
+```",0,0
+img0032_z089_prior_consistent_left_kidney,qwen,left_kidney,"```json
+{
+  ""observation"": ""This axial CT slice shows a cross-section of the abdomen with various organs visible. The kidneys, liver, and parts of the gastrointestinal tract can be seen. The pancreas is also visible in this slice."",
+  ""reasoning"": ""The right kidney is present as it is clearly visible on the right side of the image. The left kidney is also present, located on the left side of the image. The stomach is not visible in this particular slice due to its position and the angle of the scan. The pancreas is present, as it is visible in the lower central part of the image."",
+  ""presence"": {
+    ""right kidney"": ""present"",
+    ""left kidney"": ""present"",
+    ""stomach"": ""absent"",
+    ""pancreas"": ""present""
+  }
+}
+```",0,0
+img0026_z053_out_of_range_far_liver,qwen,pancreas,"```json
+{
+  ""observation"": ""This axial CT slice shows a cross-section of the abdomen with various organs visible. The liver is located on the right side of the image, the kidneys are on either side of the spine, and the pancreas is partially visible behind the stomach. The aorta and inferior vena cava are also seen in the midline."",
+  ""reasoning"": ""The liver is clearly visible on the right side of the image, indicating its presence. The left kidney is also visible on the left side of the image, confirming its presence. The pancreas is partially visible behind the stomach, suggesting its presence. The right kidney is also visible on the right side of the image, confirming its presence."",
+  ""presence"": {
+    ""liver"": ""present"",
+    ""left kidney"": ""present"",
+    ""pancreas"": ""present"",
+    ""right kidney"": ""present""
+  }
+}
+```",0,0
+img0034_z052_out_of_range_far_liver,qwen,right_kidney,"```json
+{
+  ""observation"": ""This axial CT slice shows a cross-section of the abdomen with various organs and structures visible. The liver is located on the right side of the image, the kidneys are on either side of the spine, the pancreas is centrally located behind the stomach, and the aorta and inferior vena cava are visible in the midline."",
+  ""reasoning"": ""The liver is clearly visible on the right side of the image, indicating its presence. The left kidney is also visible on the left side of the image, confirming its presence. The pancreas is seen centrally behind the stomach, suggesting its presence. The right kidney is not visible in this particular slice due to the angle and positioning of the organs at this level."",
+  ""presence"": {
+    ""liver"": ""present"",
+    ""left kidney"": ""present"",
+    ""pancreas"": ""present"",
+    ""right kidney"": ""absent""
+  }
+}
+```",0,0
+img0005_z050_prior_consistent_left_kidney,qwen,left_kidney,"```json
+{
+  ""observation"": ""This axial CT slice shows a cross-section of the abdomen with various organs visible. The liver is seen on the right side of the image, the stomach is located centrally, and parts of the kidneys can be observed on both sides. The aorta and inferior vena cava are also visible in the midline."",
+  ""reasoning"": ""The left kidney is present as it is visible on the left side of the image. The right kidney is also present as it is visible on the right side of the image. The stomach is present as it is clearly seen in the center of the image. The liver is present as it is visible on the right side of the image."",
+  ""presence"": {
+    ""left kidney"": ""present"",
+    ""right kidney"": ""present"",
+    ""stomach"": ""present"",
+    ""liver"": ""present""
+  }
+}
+```",0,0
+img0025_z043_out_of_range_far_gallbladder,qwen,pancreas,"```json
+{
+  ""observation"": ""This axial CT slice shows a cross-section of the abdomen with various organs visible. The image includes the kidneys, liver, and other abdominal structures. The left kidney is located on the left side of the image, while the right kidney is on the right side. The liver is seen in the upper right quadrant, and the pancreas is partially visible in the lower central region."",
+  ""reasoning"": ""The left kidney is clearly visible on the left side of the image, confirming its presence. The right kidney is also visible on the right side of the image, indicating its presence as well. The liver is identifiable in the upper right quadrant, showing its presence. The pancreas is partially visible in the lower central region, suggesting its presence."",
+  ""presence"": {
+    ""left kidney"": ""present"",
+    ""liver"": ""present"",
+    ""right kidney"": ""present"",
+    ""pancreas"": ""present""
+  }
+}
+```",0,0
+img0002_z071_out_of_range_near_right_kidney,qwen,liver,"```json
+{
+  ""observation"": ""The axial CT slice shows a cross-section of the abdomen with various organs visible. The liver is seen on the right side of the image, and part of the stomach is visible on the left side."",
+  ""reasoning"": ""The liver is clearly visible on the right side of the image, indicating its presence. The stomach is also partially visible on the left side, confirming its presence in this slice."",
+  ""presence"": {
+    ""stomach"": ""present"",
+    ""liver"": ""present""
+  }
+}
+```",0,0
+img0033_z074_prior_consistent_liver,qwen,pancreas,"```json
+{
+  ""observation"": ""This axial CT slice shows a cross-section of the abdomen with various organs visible. The liver is seen on the right side, the kidneys are partially visible, and the pancreas is located behind the stomach. The aorta and inferior vena cava are also visible."",
+  ""reasoning"": ""The liver is clearly visible on the right side of the image. The left kidney is partially visible on the left side, but its full extent is not shown due to the angle of the slice. The pancreas is located behind the stomach and is partially visible. The right kidney is also partially visible on the left side of the image. The aorta and inferior vena cava are also visible."",
+  ""presence"": {
+    ""liver"": ""present"",
+    ""left kidney"": ""present"",
+    ""pancreas"": ""present"",
+    ""right kidney"": ""present""
+  }
+}
+```",0,0
+img0002_z085_out_of_range_near_stomach,qwen,left_kidney,"```json
+{
+  ""observation"": ""This axial CT slice shows a cross-section of the abdomen with various organs visible. The image includes parts of the kidneys, liver, stomach, and other abdominal structures. The pancreas is also visible in this slice."",
+  ""reasoning"": ""The right kidney is located on the right side of the image, and it is clearly visible. The left kidney is also present on the left side of the image. The pancreas is located behind the stomach and is partially visible in this slice. The stomach is also visible in the center of the image, just below the diaphragm."",
+  ""presence"": {
+    ""right kidney"": ""present"",
+    ""left kidney"": ""present"",
+    ""pancreas"": ""present"",
+    ""stomach"": ""present""
+  }
+}
+```",0,0
+img0022_z070_out_of_range_near_gallbladder,qwen,gallbladder,"```json
+{
+  ""observation"": ""The axial CT slice shows a cross-section of the upper abdomen with visible structures including the liver on the right side, the stomach in the center, and parts of the kidneys and other abdominal organs. The image quality allows for clear visualization of these structures."",
+  ""reasoning"": ""Based on the visible anatomy in this slice, the following can be determined:\n- Liver: Present. The large, homogenous structure on the right side of the image corresponds to the liver.\n- Gallbladder: Absent. There is no distinct, fluid-filled structure that would represent the gallbladder in this slice.\n- Left Kidney: Present. A portion of the left kidney is visible on the left side of the image.\n- Stomach: Present. The central, rounded structure with a lighter density is consistent with the stomach."",
+  ""presence"": {
+    ""liver"": ""present"",
+    ""gallbladder"": ""absent"",
+    ""left kidney"": ""present"",
+    ""stomach"": ""present""
+  }
+}
+```",0,0
+img0027_z040_out_of_range_far_gallbladder,qwen,right_kidney,"```json
+{
+  ""observation"": ""This axial CT slice shows a cross-section of the abdomen with various organs visible. The liver is located on the right side of the image, the kidneys are on either side of the spine, and the aorta and inferior vena cava are visible in the midline. The pancreas is also seen in the lower part of the image."",
+  ""reasoning"": ""The liver is clearly visible on the right side of the image, indicating its presence. The left kidney is also visible on the left side of the image, confirming its presence. The right kidney is also visible on the right side of the image, confirming its presence."",
+  ""presence"": {
+    ""liver"": ""present"",
+    ""left kidney"": ""present"",
+    ""right kidney"": ""present""
+  }
+}
+```",0,0
